@@ -1,4 +1,6 @@
-
+spring:
+  application:
+    name: trs-SERVICE
 
 eureka:
   instance:
@@ -9,6 +11,4 @@ eureka:
       default-zone: http://localhost:8761/eureka
 
 
-  spring:
-    application:
-     name: trs-SERVICE
+ 
